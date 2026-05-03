@@ -17,7 +17,7 @@ export default function Layout({ children }) {
     <div className="app-shell">
       <aside className="sidebar">
         <div>
-          <div className="brand">TaskFlow Pro</div>
+          <div className="brand">Team Task Manager</div>
           <div className="user-card">
             <div className="muted tiny">Signed in as</div>
             <div className="user-name">{user?.name}</div>
