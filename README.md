@@ -1,4 +1,3 @@
-﻿# Team-Task-Management-Web-Application
 # Team Task Management Web Application
 
 A full-stack collaborative task management system where users can create projects, invite members, assign tasks, and track progress.
