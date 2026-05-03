@@ -1,15 +1,15 @@
 # Team Task Management Web Application
 
-**A full-stack collaborative task management platform that enables users to create projects, invite team members, assign tasks, and monitor progress efficiently.
-**---
+A full-stack collaborative task management platform that enables users to create projects, invite team members, assign tasks, and monitor progress efficiently.
+
 
 ## Features
 
 * User Authentication (JWT)
 * Role-based access (Admin / Member)
-* Project creation & joining (invite code)
+* Project creation and joining via invite codes
 * Task management (create, assign, update status)
-* Dashboard analytics
+* Dashboard analytics for tracking progress
 * Full-stack deployment on Vercel
 
 ---
@@ -62,7 +62,7 @@ JWT_SECRET=your_secret_key
 
 ---
 
-## Run Locally
+## Running the Project Locally
 
 ### Install dependencies
 
@@ -78,14 +78,14 @@ npm install
 npm run dev
 ```
 
-This runs:
+This will start:
 
 * Backend → `http://localhost:5000`
 * Frontend → `http://localhost:5173`
 
 ---
 
-### Open browser
+### Access tge browser
 
 ```
 http://localhost:5173
@@ -101,12 +101,12 @@ Frontend uses:
 /api
 ```
 
-Vite proxy handles local routing
-Vercel handles production routing
+Vite handles routing in development
+Vercel manages routing in production
 
 ---
 
-## Deploy on Vercel
+## Deployment on Vercel
 
 ### Push code to GitHub
 
@@ -118,18 +118,17 @@ git push
 
 ---
 
-### Import project in Vercel
-
+### Deploy via Vercel
 * Go to https://vercel.com
-* Click **New Project**
-* Select repository
+* Click New Project
+* Select your repository
 * Deploy
 
 ---
 
 ### Add Environment Variables in Vercel
 
-Go to:
+Navigate to:
 
 **Project Settings → Environment Variables**
 
@@ -142,10 +141,10 @@ JWT_SECRET=your_secret
 
 ---
 
-### Configure MongoDB Atlas
+### MongoDB Atlas Setup
 
-* Go to Network Access
-* Add IP:
+* Navigate to Network Access
+* Add the following IP:
 
 ```
 0.0.0.0/0
@@ -153,7 +152,7 @@ JWT_SECRET=your_secret
 
 ---
 
-### Access App
+### Access the depolyed application
 
 ```
 https://your-project.vercel.app
@@ -185,4 +184,7 @@ https://your-project.vercel.app
 MODSU SHASHANK REDDY
 
 ---
+<img width="1890" height="822" alt="image" src="https://github.com/user-attachments/assets/681150f0-c70a-4507-828c-fc07d5a6d0ab" />
+
+<img width="1891" height="828" alt="image" src="https://github.com/user-attachments/assets/1b4f90d9-e140-44f8-a2a1-b439faa76fbb" />
 
